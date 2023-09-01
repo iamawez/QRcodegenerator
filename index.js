@@ -14,7 +14,7 @@ function GenerateQR() {
          // Remove the "show-img" class after a delay to trigger the fade-in animation again
          setTimeout(() => {
             IMGbox.classList.remove("show-img");
-        }, 3000);
+        }, 8000);
 
     }else{
         qrinput.classList.add('error');
